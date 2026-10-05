@@ -1,0 +1,27 @@
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#f6f8fc;color:#172033;line-height:1.6}
+header{background:#101c3a;position:sticky;top:0;z-index:10}
+.nav{max-width:1100px;margin:auto;padding:18px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{color:white;text-decoration:none;font-size:1.2rem;font-weight:800}
+.links{display:flex;gap:22px}.links a{color:#dfe7ff;text-decoration:none}.links a:hover{color:white}
+main{max-width:1100px;margin:auto}
+.hero{min-height:620px;padding:90px 30px;display:grid;grid-template-columns:1.5fr .8fr;gap:40px;align-items:center}
+.tag{font-size:.85rem;font-weight:800;letter-spacing:2px;color:#4967d6}
+h1{font-size:clamp(2.6rem,6vw,5rem);line-height:1.05;margin:15px 0}
+h1 span{color:#4967d6}
+.intro{font-size:1.15rem;max-width:650px;color:#566176}
+.buttons{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:700}
+.primary{background:#4967d6;color:white}.secondary{border:2px solid #4967d6;color:#4967d6}
+.avatar{width:260px;height:260px;border-radius:50%;background:white;display:grid;place-items:center;font-size:7rem;box-shadow:0 20px 50px #1b2a4a22;margin:auto}
+.section{padding:70px 30px}.section h2{font-size:2rem;margin-bottom:20px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cards article,.project{background:white;padding:25px;border-radius:16px;box-shadow:0 10px 30px #1b2a4a12}
+.icon{font-size:2rem;margin-bottom:10px}.cards h3,.project h3{margin-bottom:8px}.cards p,.project p{color:#687286}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.project span{display:inline-block;margin-top:18px;color:#4967d6;font-size:.9rem;font-weight:700}
+.contact{text-align:center;background:white;border-radius:20px;margin:30px;padding:55px}
+.contact .btn{margin-top:20px}
+footer{text-align:center;padding:30px;color:#697386}
+@media(max-width:800px){.nav{flex-direction:column;gap:12px}.links{gap:12px;flex-wrap:wrap;justify-content:center}.hero{grid-template-columns:1fr;text-align:center}.intro{margin:auto}.cards{grid-template-columns:1fr 1fr}.projects{grid-template-columns:1fr}}
+@media(max-width:500px){.cards{grid-template-columns:1fr}.section{padding:50px 20px}.hero{padding:60px 20px}.avatar{width:190px;height:190px;font-size:5rem}}
