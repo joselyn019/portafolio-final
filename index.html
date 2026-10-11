@@ -3,17 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Portafolio | Desarrollador de Software</title>
+  <title>Betsy Joselyn | Desarrolladora de Software</title>
+  <meta name="description" content="Portafolio de Betsy Joselyn, desarrolladora de software: proyectos, habilidades y contacto.">
+  <meta name="theme-color" content="#0f172a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Betsy Joselyn | Desarrolladora de Software">
+  <meta property="og:description" content="Soluciones web modernas, bases de datos y automatización.">
+  <meta property="og:image" content="imagenes/foto.jpeg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <nav class="nav">
+    <nav class="nav" aria-label="Navegación principal">
       <a class="logo" href="#inicio">Mi Portafolio</a>
       <div class="links">
         <a href="#sobre-mi">Sobre mí</a>
-        <a href="#proyectos">Proyectos</a>
         <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
         <a href="#contacto">Contacto</a>
       </div>
     </nav>
@@ -22,7 +29,8 @@
   <main>
     <section id="inicio" class="hero">
       <div>
-        <p class="tag">DESARROLLADOR DE SOFTWARE</p        <h1>Hola, soy <span>Betsy joselyn</span></h1>
+        <p class="tag">DESARROLLADORA DE SOFTWARE</p>
+        <h1>Hola, soy <span>Betsy Joselyn</span></h1>
         <p class="intro">
           Creo soluciones web modernas, funcionales y fáciles de usar.
           Me interesa el desarrollo de software, las bases de datos y las tecnologías web.
@@ -33,14 +41,14 @@
         </div>
       </div>
       <div class="avatar">
-  <img src="imagenes/foto.jpeg" alt="Foto de Joselyn">
-</div>
+        <img src="imagenes/foto.jpeg" alt="Foto de Betsy Joselyn" width="320" height="320">
+      </div>
     </section>
 
     <section id="sobre-mi" class="section">
       <h2>Sobre mí</h2>
       <p>
-        Soy estudiante y desarrollador en formación. Me gusta aprender nuevas tecnologías,
+        Soy estudiante y desarrolladora en formación. Me gusta aprender nuevas tecnologías,
         resolver problemas y convertir ideas en proyectos funcionales.
       </p>
     </section>
@@ -48,10 +56,10 @@
     <section id="habilidades" class="section">
       <h2>Habilidades</h2>
       <div class="cards">
-        <article><div class="icon">🐍</div><h3>Python</h3><p>Programación y automatización.</p></article>
-        <article><div class="icon">JS</div><h3>JavaScript</h3><p>Interactividad y desarrollo web.</p></article>
-        <article><div class="icon">☕</div><h3>Java</h3><p>Programación orientada a objetos.</p></article>
-        <article><div class="icon">🗄️</div><h3>Bases de datos</h3><p>Diseño, consultas y organización de datos.</p></article>
+        <article><div class="icon" aria-hidden="true">🐍</div><h3>Python</h3><p>Programación y automatización.</p></article>
+        <article><div class="icon" aria-hidden="true">JS</div><h3>JavaScript</h3><p>Interactividad y desarrollo web.</p></article>
+        <article><div class="icon" aria-hidden="true">☕</div><h3>Java</h3><p>Programación orientada a objetos.</p></article>
+        <article><div class="icon" aria-hidden="true">🗄️</div><h3>Bases de datos</h3><p>Diseño, consultas y organización de datos.</p></article>
       </div>
     </section>
 
@@ -79,14 +87,14 @@
     <section id="contacto" class="section contact">
       <h2>Contacto</h2>
       <p>¿Te gustaría conocer más sobre mis proyectos?</p>
-      <a class="btn primary" href="joselynvelazquez0109@gmail.com">Enviar correo</a>
+      <a class="btn primary" href="mailto:joselynvelazquez0109@gmail.com">Enviar correo</a>
     </section>
   </main>
 
   <footer>
-    <p>© <span id="year"></span> Betsy · Portafolio de Desarrollador</p>
+    <p>© <span id="year"></span> Betsy Joselyn · Portafolio de Desarrolladora</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
